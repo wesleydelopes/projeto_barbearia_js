@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #FFF;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin: 2em 0;
+    overflow: hidden;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #ccc;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+th {
+    font-weight: bold;
+    background-color: #EEE;
+}
+
+label {
+    color: #555;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.campo {
+    width: 100%;
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    transition: border-color 0.3s;
+}
+
+.campo:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.grupo {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.7em 2em;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.adicionar-cliente {
+    margin-top: 2em;
+}
+
+.cliente-invalido {
+    background-color: #ffcdd2;
+}
